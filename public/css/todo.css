@@ -63,3 +63,36 @@ input, button {
 .edit-icon {
     cursor: pointer;
 }
+
+.todo-icon {
+    width: 32px;
+    height: 32px;
+}
+
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-credit {
+    margin-top: auto;
+    padding-top: 90pt;
+    font-size: 12pt;
+    color: #777;
+}
+
+.icon-credit summary {
+    cursor: pointer;
+    font-size: 14pt;
+    color: #555;
+}
+
+.icon-credit a {
+    color: #777;
+}

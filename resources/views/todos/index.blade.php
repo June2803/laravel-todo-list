@@ -35,12 +35,16 @@
 
             <input type="checkbox" id="edit-{{ $todo->id }}" class="edit-toggle">
 
-            <label for="edit-{{ $todo->id }}" class="icon-button edit-icon">✎</label>
+            <label for="edit-{{ $todo->id }}" class="icon-button edit-icon">
+                <img src="{{ asset('icons/pencil.png') }}" class="todo-icon" alt="edit">
+            </label>
 
             <form method="POST" action="{{ route('todos.destroy', $todo) }}">
                 @csrf
                 @method('DELETE')
-                <button class="icon-button" type="submit">🗑</button>
+                <button class="icon-button" type="submit">
+                    <img src="{{ asset('icons/delete.png') }}" class="todo-icon" alt="delete">
+                </button>
             </form>
 
             <div class="edit-panel">
@@ -56,5 +60,19 @@
             </div>
         </div>
     @endforeach
+
+    <footer class="icon-credit">
+        <details>
+            <summary>聲明</summary>
+
+            <a href="https://www.flaticon.com/free-icons/pencil" title="pencil icons">
+                Pencil icons created by Ilham Fitrotul Hayat - Flaticon
+            </a>
+            <br>
+            <a href="https://www.flaticon.com/free-icons/delete" title="delete icons">
+                Delete icons created by Ilham Fitrotul Hayat - Flaticon
+            </a>
+    </footer>
+
 </body>
 </html>
