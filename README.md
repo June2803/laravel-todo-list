@@ -21,6 +21,33 @@
 * Blade
 * HTML / CSS
 
+## 安裝與啟動方式
+
+1. 複製專案
+
+```bash
+git clone https://github.com/June2803/laravel-todo-list.git
+cd laravel-todo-list
+```
+
+2. 啟動 Docker / Laravel Sail
+
+```bash
+./vendor/bin/sail up -d
+```
+
+3. 建立資料表
+
+```bash
+./vendor/bin/sail artisan migrate
+```
+
+4. 開啟網站
+
+```text
+http://localhost
+```
+
 ## 專案架構簡述
 
 * `routes/web.php`：設定頁面路由
