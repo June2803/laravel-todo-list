@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Laravel Todo List</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="{{ asset('css/todo.css') }}">
 
 </head>
