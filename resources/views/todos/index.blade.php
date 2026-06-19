@@ -3,74 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Laravel Todo List</title>
+    <link rel="stylesheet" href="{{ asset('css/todo.css') }}">
 
-    <style>
-        body {
-            font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
-            font-size: 20pt;
-            padding: 30px;
-        }
-
-        input, button {
-            font-family: inherit;
-            font-size: 20pt;
-        }
-
-        .todo-item {
-            display: grid;
-            grid-template-columns: auto 1fr auto auto;
-            align-items: center;
-            gap: 20px;
-            border-bottom: 1px solid #ddd;
-            padding: 20px 0;
-        }
-
-        .todo-title {
-            font-size: 26pt;
-            color: #000;
-            font-weight: bold;
-        }
-
-        .todo-desc {
-            font-size: 20pt;
-            color: #777;
-            margin-top: 8px;
-        }
-
-        .icon-button {
-            border: none;
-            background: none;
-            cursor: pointer;
-            font-size: 24pt;
-        }
-
-        .completed .todo-title {
-            text-decoration: line-through;
-            color: #777;
-        }
-
-        .add-form {
-            margin-bottom: 30px;
-        }
-
-        .edit-toggle {
-            display: none;
-        }
-
-        .edit-panel {
-            display: none;
-            grid-column: 2 / 5;
-            margin-top: 15px;
-        }
-
-        .edit-toggle:checked ~ .edit-panel {
-            display: block;
-        }
-
-        .edit-icon {
-            cursor: pointer;
-        }
-    </style>
 </head>
 
 <body>
