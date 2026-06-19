@@ -33,5 +33,5 @@
 
 ## 圖示來源
 
-Pencil icons created by Ilham Fitrotul Hayat - Flaticon
-Delete icons created by Ilham Fitrotul Hayat - Flaticon
+- Pencil icons created by Ilham Fitrotul Hayat - Flaticon
+- Delete icons created by Ilham Fitrotul Hayat - Flaticon
