@@ -11,6 +11,10 @@
 * 使用 MySQL 儲存資料
 * 使用 Git 進行版本控制
 
+## 畫面截圖
+
+![Todo List screenshot](public/screenshots/todo-list.png)
+
 ## 使用技術
 
 * PHP
