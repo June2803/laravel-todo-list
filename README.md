@@ -45,11 +45,10 @@ fi
 ./vendor/bin/sail artisan migrate
 ```
 
-## 日常使用與測試
+## 日常使用
 
 - 啟動用 `./vendor/bin/sail up -d`，停止用 `./vendor/bin/sail stop`。使用範例設定時，開啟 [本機待辦清單](http://127.0.0.1:8080/)。
 - 執行 `./vendor/bin/sail artisan test`。PHPUnit 使用記憶體 SQLite，涵蓋待辦操作、表單驗證、標籤篩選與刪除關聯。
-- 手動驗收可新增一筆帶有「面試，重要」的待辦，點其中一個標籤，再按「×」。編輯時將標題改成三個空格，確認該列顯示提示並保留說明。
 
 ## 程式位置
 
